@@ -1,0 +1,28 @@
+models:
+  llm:
+    provider: "openai"
+    model: "gpt-4o"
+    temperature: 0.1
+  embedding:
+    provider: "huggingface"
+    model: "BAAI/bge-large-en-v1.5"
+    dimensions: 1024
+  reranker:
+    model: "BAAI/bge-reranker-large"
+
+retrieval:
+  top_k_initial: 10
+  top_k_final: 3
+  chunk_size: 512
+  chunk_overlap: 50
+  similarity_threshold: 0.5
+
+memory:
+  short_term_turns: 5
+  max_prompt_tokens: 6000
+  max_history_turns: 3
+  max_chunks: 3
+
+storage:
+  qdrant_local_path: "./qdrant_storage"
+  collection_name: "enterprise_documents"

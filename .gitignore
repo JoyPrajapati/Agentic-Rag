@@ -1,0 +1,105 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# Virtual environments
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# ============================================
+# Environment variables (NEVER commit these)
+# ============================================
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# Vector database storage (regenerate with ingest.py)
+# ============================================
+chroma_db/
+qdrant_storage/
+qdrant_storage_eval/
+
+# ============================================
+# Documents (users download from SEC EDGAR)
+# ============================================
+data/raw/*.pdf
+data/raw/*.PDF
+data/processed/
+
+# Keep the folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ============================================
+# Model cache (huge, auto-downloaded)
+# ============================================
+.cache/
+models/
+*.safetensors
+*.bin
+*.pkl
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Logs & temporary files
+# ============================================
+*.log
+logs/
+*.tmp
+temp/
+
+# ============================================
+# Test/eval outputs
+# ============================================
+tests/ragas_results.json
+tests/ragas_per_sample.csv
+tests/ragas_per_sample.json
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ============================================
+# Jupyter
+# ============================================
+.ipynb_checkpoints/

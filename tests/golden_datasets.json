@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What was Goldman Sachs' total revenue in 2024?",
+    "ground_truth": "Goldman Sachs reported total revenue of $XX.X billion in 2024."
+  },
+  {
+    "question": "Who is the CEO of Morgan Stanley?",
+    "ground_truth": "The CEO of Morgan Stanley is [name]."
+  },
+  {
+    "question": "What are the main risk factors mentioned?",
+    "ground_truth": "The main risk factors include market volatility, regulatory changes, and cyber threats."
+  }
+]
