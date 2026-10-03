@@ -1,22 +1,22 @@
-pydantic-ai ,
-pydantic ,
-llama-index,
-llama-index-embeddings-huggingface,
-fastapi,
-uvicorn,
-logfire,
-python-dotenv ,
-pymupdf,
-python-docx ,
-markdown,
-sentence-transformers,
-rank-bm25,
-pyyaml,
-tiktoken,
-httpx,
-datasets,
-ragas,
-ragas "langchain-community<0.4",
-langchain-google-vertexai,
-chromadb,
+pydantic-ai
+pydantic 
+llama-index
+llama-index-embeddings-huggingface
+fastapi
+uvicorn
+logfire
+python-dotenv 
+pymupdf
+python-docx 
+markdown
+sentence-transformers
+rank-bm25
+pyyaml
+tiktoken
+httpx
+datasets
+ragas
+ragas "langchain-community<0.4"
+langchain-google-vertexai
+chromadb
 llama-index-vector-stores-chroma
